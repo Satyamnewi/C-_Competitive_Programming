@@ -1,0 +1,14 @@
+5
+6
+18,19
+24
+25
+27 - Pairs
+28, 29 - Vectors
+
+
+
+To Do
+20 - sets or maps
+22 - sub array
+23 - prime numbers which can written as sum of most consecutive primes

@@ -1,0 +1,1 @@
+//https://www.geeksforgeeks.org/find-prime-number-can-written-sum-consecutive-primes/
