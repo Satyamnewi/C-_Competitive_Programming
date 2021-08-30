@@ -1,32 +1,31 @@
-// HackerEarth - Maps-STL - https://www.hackerrank.com/challenges/cpp-maps/problem
+//Hackerearth - Sets-STL - https://www.hackerrank.com/challenges/cpp-sets/problem
 #include<bits/stdc++.h>
 using namespace std;
 
 const int N = 1e5;
-int a[N];
+char a[N];
 int main()
 {
-    map<string,int> m;
     int t;
     cin >> t;
-
+    set<long long int> s;
     while(t--)
     {
-        int x;
-        cin >> x;
-        string s;
-        cin >> s;
-        int marks;
-
-        if(x==1)
-        {
-            cin >> marks;
-            m[s] = m[s] + marks;
-        }
+        int x ;
+        long long int n;
+        cin >> x >> n;
+        if(x == 1)
+            s.insert(n);
         else if(x==2)
-            m.erase(s);
+            s.erase(n);
         else
-            cout << m[s] << endl;
+        {
+            if(s.end()==s.find(n))
+                cout<<"No"<<endl;
+            else
+                cout<<"Yes"<<endl;
+        }
+            //cout << (s.find(n) == s.end() ? "No" : "Yes") << endl;
     }
     return 0; 
 }
