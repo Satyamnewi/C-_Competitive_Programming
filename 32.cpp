@@ -29,5 +29,9 @@ int main()
     if(it != s.end())
         cout << *it << " " << endl;
 
+    /*
+        s.erase(val); //Erases an integer val from the set s.
+        
+    */
     return 0; 
 }
