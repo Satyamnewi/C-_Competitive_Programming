@@ -1,4 +1,7 @@
 //Maps  - Insert, Traverse, Search
+/*
+    Stores in sorted way
+*/
 #include<bits/stdc++.h>
 using namespace std;
 

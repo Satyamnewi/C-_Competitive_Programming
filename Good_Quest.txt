@@ -6,6 +6,7 @@
 27 - Pairs
 28, 29 - Vectors
 31-Maps
+32-Sets
 
 
 
