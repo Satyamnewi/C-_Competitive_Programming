@@ -33,5 +33,11 @@ int main()
     if(it != m.end())
         cout << it->first << " " << it->second << endl;
 
+    /*
+        m.erase(val); //Erases the pair from the map where the key_type is val.
+        m.insert(make_pair("hello",9)); //Here the pair is inserted into the map where the key is "hello" and the value associated with it is 9.
+        
+    
+    */
     return 0; 
 }
