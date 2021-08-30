@@ -1,4 +1,4 @@
-//Hackerearth - Sets-STL - https://www.hackerrank.com/challenges/cpp-sets/problem
+//Hackerrank - Sets-STL - https://www.hackerrank.com/challenges/cpp-sets/problem
 #include<bits/stdc++.h>
 using namespace std;
 
