@@ -16,7 +16,7 @@ int main()
         vector<int> temp; //We made this cause we will store all the vector or 1 row here and then push everuthing at once at line 23
         for(int j=0 ; j<m ; j++)
         {
-            int x;
+            int x; 
             cin >> x;
             temp.push_back(x);
         }
