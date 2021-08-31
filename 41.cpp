@@ -1,4 +1,4 @@
-//Vector of vectors
+//Vector of vectors - Means we can increment value row-wise as well as column wise
 #include<bits/stdc++.h>
 using namespace std;
 
