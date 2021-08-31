@@ -28,10 +28,12 @@ int main()
     //To search a element x here
     int x;
     cin >> x;
-    
+
     it = m.find(x);
     if(it != m.end())
         cout << it->first << " " << it->second << endl;
+    
+    
 
     /*
         m.erase(val); //Erases the pair from the map where the key_type is val.
