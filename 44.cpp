@@ -1,5 +1,5 @@
-//Sets question by its properties
-//Given N strings print unique strings in lexiographic order
+//Map question by its properties
+//Given N strings print unique strings in lexiographic order with their frequency
 #include<bits/stdc++.h>
 using namespace std;
 int main()
