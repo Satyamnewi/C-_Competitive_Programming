@@ -1,4 +1,5 @@
 //Sets question by its properties
+//Given N strings print unique strings in lexiographic order
 #include<bits/stdc++.h>
 using namespace std;
 int main()
@@ -12,6 +13,7 @@ int main()
         cin >> str;
         s.insert(str);
     }
+    cout << "Given strings is : " << endl;
     for(auto it : s)
         cout << it << endl;
     return 0; 
